@@ -4,14 +4,14 @@ from [MongoDB](https://www.mongodb.com/cloud/atlas) database.
 Api accept this JSON object as a database entry:
 ```json
 {
-id:""
-user:{
-    firstName: "",
-    lastName: "",
-    age: "",
-    gender: "",
-    tandcs: "",
-    email: ""
+"id" :""
+"user" :{
+    "firstName" : "",
+    "lastName" : "",
+    "age" : "",
+    "gender" : "",
+    "tandcs" : "", 
+    "email" : ""
   }
 }
 ```
@@ -19,19 +19,21 @@ For every operation except creating new user the api return with a api callback 
 
 ```json
 {
-status:{
-code: 200, //if error occurs, the code will be 400
-msg: "{message about the operation}"
+"status":{
+"code" : 200,
+"msg": "{message about the operation}"
   }
 }
 ```
+*Note: errore code will be 404 if there is an error
+
 The api return this following JSON object if a new user is created successfully:
 ```json
 {
-status:{
-    code: 200,
-    msg: "{Message about operation}",
-    uid: "{uniq id of the new user that is created}"
+"status":{
+    "code" : 200,
+    "msg" : "{Message about operation}",
+    "uid" : "{uniq id of the new user that is created}"
   }
 }
 ```
