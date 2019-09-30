@@ -33,7 +33,7 @@ For every operation except creating new user the api return with a api callback 
   }
 }
 ```
-**Note: errore code will be 404 if there is an error
+**Note: errore code will be 404 if there is an error**
 
 The api return this following JSON object if a new user is created successfully:
 ```json
@@ -45,6 +45,18 @@ The api return this following JSON object if a new user is created successfully:
   }
 }
 ```
+
+## Requirements
+Required npm packages to make this project work:
+* [Node.js](https://nodejs.org/en/)
+* [Express](https://www.npmjs.com/package/express)
+* [Mongoose](https://www.npmjs.com/package/mongoose)
+* [Dotenv](https://www.npmjs.com/package/dotenv)
+* [UUID](https://www.npmjs.com/package/uuid)
+* [Nodemon](https://www.npmjs.com/package/nodemon). This is a development dependency
+
+Manually install this packages in this directory or else run `npm install` in cmd/terminal within the direcotry and let npm install all the required package for this project into the unziped folder
+
 
 ## How to run this program and connect to MongoDB
 If anyone want to clone this repository and want to work on this project they have to create MongoDB atlas account first. You can get free storage for testing perpose in MongoDB atlas.
