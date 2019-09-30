@@ -1,4 +1,4 @@
-# User-API
+# User-API(Node Express)
 Project API for creating new user, geting info about a user with their id, updating information about a user and delete a user
 from [MongoDB](https://www.mongodb.com/cloud/atlas) database.
 ## Four endpoints are available for this api:
