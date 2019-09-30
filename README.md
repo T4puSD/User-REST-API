@@ -64,5 +64,6 @@ If anyone want to clone this repository and want to work on this project they ha
 DB_URL = mongodb+srv://<username>:<password>@cluster0-kv4vd.mongodb.net/test?retryWrites=true&w=majority
 ```
 **Don't use any quotes to wrap the DB_URL as this is the format for Dotenv.**
+**Make sure to input your own username and password in this above link.**
 Atlast run `npm start` which will call `nodemon app.js` and start the server in [localhost:3000](https://localhost:3000)
 
