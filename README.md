@@ -46,7 +46,7 @@ The api return this following JSON object if a new user is created successfully:
 ```
 
 ## Requirements
-Required npm packages to make this project work:
+Required software & npm packages to make this project work:
 * [Node.js](https://nodejs.org/en/)
 * [Express](https://www.npmjs.com/package/express)
 * [Mongoose](https://www.npmjs.com/package/mongoose)
@@ -59,11 +59,11 @@ Manually install this packages in this directory or else run `npm install` in cm
 
 ## How to run this program and connect to MongoDB
 If anyone want to clone this repository and want to work on this project they have to create MongoDB atlas account first. You can get free storage for testing perpose in MongoDB atlas.(Use online resources to gets you up and running in MongoDB Atlas).
-**Make a .env file in root directory and past your MongoDB access link in it.**
+**Make a .env file in root directory and paste your MongoDB access link in it.**
 ```env
 DB_URL = mongodb+srv://<username>:<password>@cluster0-kv4vd.mongodb.net/test?retryWrites=true&w=majority
 ```
 **Don't use any quotes to wrap the DB_URL as this is the format for Dotenv.**
-**Make sure to input your own username and password in this above link.**
+**Make sure to input your own username and password in this above link. For more info visit [Mongoose](https://www.npmjs.com/package/mongoose)**
 Atlast run `npm start` which will call `nodemon app.js` and start the server in [localhost:3000](https://localhost:3000)
 
