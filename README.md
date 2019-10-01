@@ -65,5 +65,6 @@ DB_URL = mongodb+srv://<username>:<password>@cluster0-kv4vd.mongodb.net/test?ret
 ```
 **Don't use any quotes to wrap the DB_URL as this is the format for Dotenv.**
 **Make sure to input your own username and password in this above link. For more info visit [Mongoose](https://www.npmjs.com/package/mongoose)**
-Atlast run `npm start` which will call `nodemon app.js` and start the server in [localhost:3000](https://localhost:3000)
+
+At last run `npm start` which will call `nodemon app.js` and start the server in [localhost:3000](https://localhost:3000) and test the api call.
 
